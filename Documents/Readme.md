@@ -38,19 +38,11 @@ Navigate to the **root** folder (where src is located) and run:
 
 **For Windows (PowerShell) \- *Recommended***
 
-mkdir bin  
-Get-ChildItem \-Recurse \*.java | ForEach-Object { javac \-d bin $\_.FullName }
-
-**For Mac / Linux / Git Bash**
-
-mkdir bin  
-javac \-d bin src/\*.java
+javac src/*.java
 
 ### **2\. Run the Application**
 
-Launch the app using the class path:
-
-java \-cp bin src.Main
+java src.Main
 
 ## **🧪 See it in Action (Testing Guide)**
 
